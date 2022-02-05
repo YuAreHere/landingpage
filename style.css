@@ -45,11 +45,12 @@ body {
 
 .signup {
     background-color: ;
-    height: 45vh;
+    height: 40vh;
     width: 100%;
     color:#F9FAF8;
     display: ;
     box-sizing: border-box;
+    box
 }
 
 .footer {
@@ -137,7 +138,7 @@ blockquote {
     font-size: 36px;
     font-weight: lighter;
     font-style:italic;
-    color: #1F2937;
+    color: #465364;
     box-sizing: border-box;
     padding: 10% 10% 0 10%;
 }
