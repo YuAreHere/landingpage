@@ -8,7 +8,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
-    height: 70vh;
+    height: 75vh;
     width: 100%;
     color: #F9FAF8;
     padding: 5px 10%;
@@ -20,7 +20,7 @@ body {
 
 .info {
     background-color: ;
-    height: 75vh;
+    height: 65vh;
     width: 100%;
     margin-top: 0;
     margin:0%;
@@ -32,17 +32,35 @@ body {
 }
 
 .quote {
-    background-color: aqua;
-    height: 50vh;
+    background-color:#E5E7EB;
+    height: 55vh;
     width: 100%;
     margin:0%;
+    display:flex;
+    flex-wrap: wrap;
+    flex:1;
+    justify-content: flex-end;
+    align-items: space-between;
+}
+
+.signup {
+    background-color: ;
+    height: 45vh;
+    width: 100%;
+    color:#F9FAF8;
+    display: ;
+    box-sizing: border-box;
 }
 
 .footer {
-    background-color: ;
-    height: 50vh;
+    background-color:#1F2937 ;
+    height: 10vh;
     width: 100%;
     margin:0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
 }
 
 .navbar {
@@ -113,4 +131,55 @@ h5 {
 .songs {
     border: solid #1F2937;
     border-radius:5%;
+}
+
+blockquote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style:italic;
+    color: #1F2937;
+    box-sizing: border-box;
+    padding: 10% 10% 0 10%;
+}
+
+.quoter {
+    padding: 0 10% 10% 10%;
+    font-weight: bold;
+    font-size: 24px;
+    
+}
+
+.callbox {
+    display: flex;
+    border: ;
+    background-color:#4b8bf1;
+    margin: 10%;
+    height: 200px;
+    justify-content:space-around;
+    align-items: center;
+    border-radius:5px;
+    box-sizing: border-box;
+    
+}
+
+.calltext {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
+.action {
+    color:#F9FAF8;
+    margin:0;
+    font-size:32px;
+}
+
+.callbutton {
+    border: solid #F9FAF8;
+    color:#F9FAF8;
+    background-color:#3882F6;
+    border-radius:5%;
+    padding: 8px 24px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
 }
