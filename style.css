@@ -2,6 +2,7 @@ body {
     margin:0;
     padding: 0;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+
 }
 
 .header {
@@ -45,7 +46,7 @@ body {
 
 .signup {
     background-color: ;
-    height: 40vh;
+    height: 30vh;
     width: 100%;
     color:#F9FAF8;
     display: ;
